@@ -1,0 +1,13 @@
+h1 {
+    color: rgba(255,255,255, .8);
+    font-size: 50px;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    min-height: 200vh;
+    background-image: linear-gradient(rgba(9,0,77,.65), rgba(9,0,77,.65)) , url(images/purpleMountains.jpg);
+}
+.insta {
+    
+}
