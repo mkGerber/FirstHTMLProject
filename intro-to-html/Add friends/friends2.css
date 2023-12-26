@@ -1,0 +1,73 @@
+p{
+    font-family: Arial;
+}
+.friend-div{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.459);
+    border-radius: 50px;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.friend-image{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.profile-photo{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+.friend-info{
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+    width: 150px;
+}
+.name{
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.position{
+    margin-top: 8px;
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 8px;
+}
+.job{
+    margin-top: 8px;
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 10px;
+}
+.follow{
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+    width: 100px;
+}
+.follow-button{
+    background-color: rgb(0, 140, 255);
+    border: none;
+    color: white;
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.follow-button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
