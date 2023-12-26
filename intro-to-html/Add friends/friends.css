@@ -1,0 +1,53 @@
+.friend{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.459);
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.friend-image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.friend-name{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.mutuals{
+    font-family: Arial;
+    font-size: 25px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.add-friend{
+    background-color: blue;
+    border: none;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.add-friend:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
