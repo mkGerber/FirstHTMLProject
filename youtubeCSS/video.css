@@ -44,11 +44,21 @@
     column-gap: 16px;
     row-gap: 40px;
 }
-@media (max-width: 900px){
+@media (max-width: 1045px){
     .video-grid{
         grid-template-columns: 1fr 1fr;
     }
 
+}
+@media (min-width: 1046) and (max-width: 1349px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1350px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 .video-time{
